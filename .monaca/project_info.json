@@ -1,0 +1,36 @@
+{
+    "plugins": [
+        "mobi.monaca.plugins.Monaca",
+        "mobi.monaca.plugins.SecureStorage@1.0.0",
+        "mobi.monaca.plugins.sqlchipher@0.1.3-pre"
+    ],
+    "framework_version": "3.5",
+    "xcode_version": "7",
+    "cordova_version": "6.2",
+    "plugin_settings": {
+        "mobi.monaca.plugins.Monaca": {
+            "variables": [
+                "APP_ID=\"value\"",
+                "APP_NAME=\"value\""
+            ]
+        },
+        "mobi.monaca.plugins.SecureStorage": {
+            "variables": [
+                "APP_ID=\"value\"",
+                "APP_NAME=\"value\""
+            ]
+        }
+    },
+    "external_plugins": [
+        "cordova-plugin-whitelist@1.3.2",
+        "cordova-plugin-splashscreen@4.0.3",
+        "cordova-custom-config@2.0.3"
+    ],
+    "title-ja": "aaa",
+    "title-en": "",
+    "description-ja": "",
+    "description-en": "",
+    "category": "User Template",
+    "platform": [],
+    "name": "generated-1494474329-5913c3ba83ba888f038b4567"
+}
